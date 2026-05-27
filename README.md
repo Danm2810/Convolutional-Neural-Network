@@ -39,16 +39,6 @@ torchmetrics
 
 A GPU is recommended for Models 1 and 2 but not required — everything will run on CPU, just more slowly.
 
-## Running the notebook
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-jupyter notebook CNN.ipynb
-```
-
-Or open it directly in [Google Colab](https://colab.research.google.com/) — `Open notebook` → `GitHub` tab → paste the repo URL.
-
 The notebook downloads `helper_functions.py` from the [Learn PyTorch repo](https://github.com/mrdbourke/pytorch-deep-learning) at runtime for the `accuracy_fn` utility, and FashionMNIST itself is downloaded to a local `data/` folder on first run.
 
 ## Dataset
